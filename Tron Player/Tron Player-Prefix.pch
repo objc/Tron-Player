@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Tron Player' target in the 'Tron Player' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

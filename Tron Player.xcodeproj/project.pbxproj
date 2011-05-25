@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C48AD91D138DAE820018E89B /* tronplayer.icns in Resources */ = {isa = PBXBuildFile; fileRef = C48AD91C138DAE820018E89B /* tronplayer.icns */; };
+		C4DA1BBC13883AE50034FA77 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DA1BBB13883AE50034FA77 /* Cocoa.framework */; };
+		C4DA1BC613883AE50034FA77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1BC413883AE50034FA77 /* InfoPlist.strings */; };
+		C4DA1BC913883AE50034FA77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1BC813883AE50034FA77 /* main.m */; };
+		C4DA1BCC13883AE50034FA77 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1BCA13883AE50034FA77 /* Credits.rtf */; };
+		C4DA1BCF13883AE50034FA77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1BCE13883AE50034FA77 /* AppDelegate.m */; };
+		C4DA1BD213883AE50034FA77 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1BD013883AE50034FA77 /* MainMenu.xib */; };
+		C4DA1BE71388518B0034FA77 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1BE61388518B0034FA77 /* main.png */; };
+		C4DA1BEA1388520F0034FA77 /* PlayerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1BE91388520F0034FA77 /* PlayerWindow.m */; };
+		C4DA1BF513885A6B0034FA77 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1BF413885A6B0034FA77 /* MainWindowController.m */; };
+		C4DA1BF813885AB70034FA77 /* HoverButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1BF713885AB70034FA77 /* HoverButton.m */; };
+		C4DA1C051388748E0034FA77 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1C041388748E0034FA77 /* play.png */; };
+		C4DA1C081388754A0034FA77 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1C061388754A0034FA77 /* next.png */; };
+		C4DA1C091388754A0034FA77 /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1C071388754A0034FA77 /* prev.png */; };
+		C4DA1C0C1388835F0034FA77 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DA1C0B1388835F0034FA77 /* ScriptingBridge.framework */; };
+		C4DA1C0E13893AA70034FA77 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1C0D13893AA70034FA77 /* pause.png */; };
+		C4DA1C16138B451E0034FA77 /* CircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1C15138B451D0034FA77 /* CircularProgressView.m */; };
+		C4DA1C18138B453B0034FA77 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DA1C17138B453B0034FA77 /* QuartzCore.framework */; };
+		C4DA1C1D138D94DA0034FA77 /* main2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1C1C138D94DA0034FA77 /* main2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C48AD91C138DAE820018E89B /* tronplayer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = tronplayer.icns; path = ../tronplayer.icns; sourceTree = "<group>"; };
+		C4DA1BB713883AE50034FA77 /* Tron Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tron Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DA1BBB13883AE50034FA77 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C4DA1BBE13883AE50034FA77 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C4DA1BBF13883AE50034FA77 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C4DA1BC013883AE50034FA77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4DA1BC313883AE50034FA77 /* Tron Player-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tron Player-Info.plist"; sourceTree = "<group>"; };
+		C4DA1BC513883AE50034FA77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4DA1BC713883AE50034FA77 /* Tron Player-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tron Player-Prefix.pch"; sourceTree = "<group>"; };
+		C4DA1BC813883AE50034FA77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4DA1BCB13883AE50034FA77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C4DA1BCD13883AE50034FA77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4DA1BCE13883AE50034FA77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4DA1BD113883AE50034FA77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C4DA1BE61388518B0034FA77 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		C4DA1BE81388520F0034FA77 /* PlayerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerWindow.h; sourceTree = "<group>"; };
+		C4DA1BE91388520F0034FA77 /* PlayerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerWindow.m; sourceTree = "<group>"; };
+		C4DA1BF313885A6B0034FA77 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		C4DA1BF413885A6B0034FA77 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		C4DA1BF613885AB70034FA77 /* HoverButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoverButton.h; sourceTree = "<group>"; };
+		C4DA1BF713885AB70034FA77 /* HoverButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoverButton.m; sourceTree = "<group>"; };
+		C4DA1C041388748E0034FA77 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		C4DA1C061388754A0034FA77 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		C4DA1C071388754A0034FA77 /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev.png; sourceTree = "<group>"; };
+		C4DA1C0A138881430034FA77 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		C4DA1C0B1388835F0034FA77 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		C4DA1C0D13893AA70034FA77 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		C4DA1C14138B451D0034FA77 /* CircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressView.h; sourceTree = "<group>"; };
+		C4DA1C15138B451D0034FA77 /* CircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressView.m; sourceTree = "<group>"; };
+		C4DA1C17138B453B0034FA77 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C4DA1C1C138D94DA0034FA77 /* main2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4DA1BB413883AE50034FA77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DA1C18138B453B0034FA77 /* QuartzCore.framework in Frameworks */,
+				C4DA1C0C1388835F0034FA77 /* ScriptingBridge.framework in Frameworks */,
+				C4DA1BBC13883AE50034FA77 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4DA1BAC13883AE50034FA77 = {
+			isa = PBXGroup;
+			children = (
+				C4DA1BC113883AE50034FA77 /* Tron Player */,
+				C4DA1BBA13883AE50034FA77 /* Frameworks */,
+				C4DA1BB813883AE50034FA77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4DA1BB813883AE50034FA77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA1BB713883AE50034FA77 /* Tron Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4DA1BBA13883AE50034FA77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA1C17138B453B0034FA77 /* QuartzCore.framework */,
+				C4DA1C0B1388835F0034FA77 /* ScriptingBridge.framework */,
+				C4DA1BBB13883AE50034FA77 /* Cocoa.framework */,
+				C4DA1BBD13883AE50034FA77 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4DA1BBD13883AE50034FA77 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA1BBE13883AE50034FA77 /* AppKit.framework */,
+				C4DA1BBF13883AE50034FA77 /* CoreData.framework */,
+				C4DA1BC013883AE50034FA77 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C4DA1BC113883AE50034FA77 /* Tron Player */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA1BF913885AC50034FA77 /* UI */,
+				C4DA1BCD13883AE50034FA77 /* AppDelegate.h */,
+				C4DA1BCE13883AE50034FA77 /* AppDelegate.m */,
+				C4DA1BE81388520F0034FA77 /* PlayerWindow.h */,
+				C4DA1BE91388520F0034FA77 /* PlayerWindow.m */,
+				C4DA1BF313885A6B0034FA77 /* MainWindowController.h */,
+				C4DA1BF413885A6B0034FA77 /* MainWindowController.m */,
+				C4DA1BD913883B3B0034FA77 /* Other Sources */,
+				C4DA1BC213883AE50034FA77 /* Supporting Files */,
+			);
+			path = "Tron Player";
+			sourceTree = "<group>";
+		};
+		C4DA1BC213883AE50034FA77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA1BE5138842D50034FA77 /* Images */,
+				C4DA1BD813883B240034FA77 /* NIBs */,
+				C4DA1BC313883AE50034FA77 /* Tron Player-Info.plist */,
+				C4DA1BC413883AE50034FA77 /* InfoPlist.strings */,
+				C4DA1BCA13883AE50034FA77 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4DA1BD813883B240034FA77 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA1BD013883AE50034FA77 /* MainMenu.xib */,
+			);
+			name = NIBs;
+			sourceTree = "<group>";
+		};
+		C4DA1BD913883B3B0034FA77 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA1C0A138881430034FA77 /* iTunes.h */,
+				C4DA1BC713883AE50034FA77 /* Tron Player-Prefix.pch */,
+				C4DA1BC813883AE50034FA77 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		C4DA1BE5138842D50034FA77 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C48AD91C138DAE820018E89B /* tronplayer.icns */,
+				C4DA1C071388754A0034FA77 /* prev.png */,
+				C4DA1C061388754A0034FA77 /* next.png */,
+				C4DA1C041388748E0034FA77 /* play.png */,
+				C4DA1C0D13893AA70034FA77 /* pause.png */,
+				C4DA1BE61388518B0034FA77 /* main.png */,
+				C4DA1C1C138D94DA0034FA77 /* main2.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C4DA1BF913885AC50034FA77 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA1BF613885AB70034FA77 /* HoverButton.h */,
+				C4DA1BF713885AB70034FA77 /* HoverButton.m */,
+				C4DA1C14138B451D0034FA77 /* CircularProgressView.h */,
+				C4DA1C15138B451D0034FA77 /* CircularProgressView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4DA1BB613883AE50034FA77 /* Tron Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DA1BD513883AE50034FA77 /* Build configuration list for PBXNativeTarget "Tron Player" */;
+			buildPhases = (
+				C4DA1BB313883AE50034FA77 /* Sources */,
+				C4DA1BB413883AE50034FA77 /* Frameworks */,
+				C4DA1BB513883AE50034FA77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tron Player";
+			productName = "Tron Player";
+			productReference = C4DA1BB713883AE50034FA77 /* Tron Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4DA1BAE13883AE50034FA77 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C4DA1BB113883AE50034FA77 /* Build configuration list for PBXProject "Tron Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4DA1BAC13883AE50034FA77;
+			productRefGroup = C4DA1BB813883AE50034FA77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4DA1BB613883AE50034FA77 /* Tron Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4DA1BB513883AE50034FA77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DA1BC613883AE50034FA77 /* InfoPlist.strings in Resources */,
+				C4DA1BCC13883AE50034FA77 /* Credits.rtf in Resources */,
+				C4DA1BD213883AE50034FA77 /* MainMenu.xib in Resources */,
+				C4DA1BE71388518B0034FA77 /* main.png in Resources */,
+				C4DA1C051388748E0034FA77 /* play.png in Resources */,
+				C4DA1C081388754A0034FA77 /* next.png in Resources */,
+				C4DA1C091388754A0034FA77 /* prev.png in Resources */,
+				C4DA1C0E13893AA70034FA77 /* pause.png in Resources */,
+				C4DA1C1D138D94DA0034FA77 /* main2.png in Resources */,
+				C48AD91D138DAE820018E89B /* tronplayer.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4DA1BB313883AE50034FA77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DA1BC913883AE50034FA77 /* main.m in Sources */,
+				C4DA1BCF13883AE50034FA77 /* AppDelegate.m in Sources */,
+				C4DA1BEA1388520F0034FA77 /* PlayerWindow.m in Sources */,
+				C4DA1BF513885A6B0034FA77 /* MainWindowController.m in Sources */,
+				C4DA1BF813885AB70034FA77 /* HoverButton.m in Sources */,
+				C4DA1C16138B451E0034FA77 /* CircularProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4DA1BC413883AE50034FA77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DA1BC513883AE50034FA77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4DA1BCA13883AE50034FA77 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DA1BCB13883AE50034FA77 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C4DA1BD013883AE50034FA77 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DA1BD113883AE50034FA77 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4DA1BD313883AE50034FA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C4DA1BD413883AE50034FA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C4DA1BD613883AE50034FA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tron Player/Tron Player-Prefix.pch";
+				INFOPLIST_FILE = "Tron Player/Tron Player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4DA1BD713883AE50034FA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tron Player/Tron Player-Prefix.pch";
+				INFOPLIST_FILE = "Tron Player/Tron Player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DA1BB113883AE50034FA77 /* Build configuration list for PBXProject "Tron Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DA1BD313883AE50034FA77 /* Debug */,
+				C4DA1BD413883AE50034FA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DA1BD513883AE50034FA77 /* Build configuration list for PBXNativeTarget "Tron Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DA1BD613883AE50034FA77 /* Debug */,
+				C4DA1BD713883AE50034FA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4DA1BAE13883AE50034FA77 /* Project object */;
+}
